@@ -1,0 +1,6 @@
+[submodule "vendor/socket.io"]
+	path = vendor/socket.io
+	url = https://github.com/LearnBoost/Socket.IO-node
+[submodule "vendor/node-static"]
+	path = vendor/node-static
+	url = https://github.com/cloudhead/node-static.git
