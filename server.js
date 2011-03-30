@@ -1,6 +1,6 @@
 var http = require('http'),
-      io = require('./vendor/socket.io'),
-  static = require('./vendor/node-static');
+      io = require('socket.io'),
+  static = require('node-static');
 
 var file = new(static.Server)('./public');
 
